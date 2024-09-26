@@ -61,15 +61,15 @@ abstract class Animal
     }
 }
 
-class chien extends Animal
+class Chien extends Animal
 {
-    public function aboie (): string
+    public function aboie(): string
     {
         return "wouaf wouaf";
     }
 }
 
-class chat extends Animal
+class Chat extends Animal
 {
     public function miaule(): string
     {
